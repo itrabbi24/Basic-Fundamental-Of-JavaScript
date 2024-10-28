@@ -419,6 +419,11 @@ const action = isActive ? showUser : hideUser;
 
 isActive ? showUser() : hideUser();
 
+isActive && showUser();
+isActive || hideUser();
+
+
+
 
 // 29. switch case in javascript
 
@@ -450,4 +455,19 @@ switch (day) {
         console.log('Today is not a valid day');
         break;
 }
+
+// 30. local storage in javascript
+
+localStorage.setItem('name', 'John')
+localStorage.getItem('name')
+localStorage.removeItem('name')
+localStorage.clear()
+
+
+// 31. session storage in javascript
+
+sessionStorage.setItem('name', 'John')
+sessionStorage.getItem('name')
+sessionStorage.removeItem('name')
+sessionStorage.clear()
 
