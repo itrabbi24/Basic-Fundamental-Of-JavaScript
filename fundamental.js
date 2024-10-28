@@ -408,9 +408,46 @@ true
 
 // 28. ternary operator in javascript
 
-const name = 'John'
+const isActive = true;
 
-const message = name ? 'Hello' : 'Goodbye';
+const message = isActive ? 'Active' : 'Inactive';
 
-let message = money > 100 ? 'Buy' : 'Sell';
+const showUser = () => console.log('Show User');
+const hideUser = () => console.log('Hide User');
+
+const action = isActive ? showUser : hideUser;
+
+isActive ? showUser() : hideUser();
+
+
+// 29. switch case in javascript
+
+const day = 'Monday' 
+
+switch (day) {
+    case 'Monday':
+        console.log('Today is Monday');
+        break;
+    case 'Tuesday':
+        console.log('Today is Tuesday');
+        break;
+    case 'Wednesday':
+        console.log('Today is Wednesday');
+        break;
+    case 'Thursday':
+        console.log('Today is Thursday');
+        break;
+    case 'Friday':
+        console.log('Today is Friday');
+        break;
+    case 'Saturday':
+        console.log('Today is Saturday');
+        break;
+    case 'Sunday':
+        console.log('Today is Sunday');
+        break;
+    default:
+        console.log('Today is not a valid day');
+        break;
+}
 
