@@ -404,3 +404,11 @@ true
 []
 {}
 
+
+
+// 28. ternary operator in javascript
+
+const name = 'John'
+
+const message = name ? 'Hello' : 'Goodbye'
+
