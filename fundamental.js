@@ -471,3 +471,12 @@ sessionStorage.getItem('name')
 sessionStorage.removeItem('name')
 sessionStorage.clear()
 
+// 32. dot vs bracket notation
+
+const person = {
+    name: 'John',
+    age: 30 
+}
+
+person.name
+person['name']
