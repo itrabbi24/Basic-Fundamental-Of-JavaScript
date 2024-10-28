@@ -383,3 +383,24 @@ const person = {
 for (const key of person) {
     console.log(key)
 }
+
+
+
+// 27. truthy and falsy values in javascript
+
+// falsy values
+false
+0
+''
+null
+undefined
+NaN
+
+
+// truthy values
+true
+1
+' '
+[]
+{}
+
