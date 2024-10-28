@@ -282,3 +282,18 @@ const [a, b, c] = numbers;
 //2nd method
 const [a,b,c] = [1,2,3]
 
+//3rd method
+const [a, b, c, ...numbers] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+//4th method
+function boxify(num1, num2, num3) {
+    const numbers = [num1, num2, num3];
+    return numbers;
+}
+
+boxify(1, 2, 3);
+
+// example
+console.log(boxify(1, 2, 3));
+// [1, 2, 3]
+
