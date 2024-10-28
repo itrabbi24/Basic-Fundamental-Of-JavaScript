@@ -410,5 +410,7 @@ true
 
 const name = 'John'
 
-const message = name ? 'Hello' : 'Goodbye'
+const message = name ? 'Hello' : 'Goodbye';
+
+let message = money > 100 ? 'Buy' : 'Sell';
 
