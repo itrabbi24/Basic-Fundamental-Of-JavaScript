@@ -274,8 +274,11 @@ function sum({ a, b }) {
     return a + b
 }
 
-// 18. array distructuring in javascript
+// 18. array destructuring in javascript
 
 const numbers = [1, 2, 3]
 const [a, b, c] = numbers;
+
+//2nd method
+const [a,b,c] = [1,2,3]
 
