@@ -354,3 +354,32 @@ fetch('https://jsonplaceholder.typicode.com/users')
     .then(response => response.json())
     .then(data => console.log(data))
     .catch(error => console.log(error)) 
+
+
+// 25. key value pair in javascript
+
+const person = {
+    name: 'John',
+    age: 30,
+    job: 'Teacher'
+}
+
+for (const key in person) {
+    console.log(key, person[key])
+}
+
+const keys = Object.keys(person)
+const values = Object.values(person)
+
+
+// 26. for of on array like object
+
+const person = {
+    name: 'John',
+    age: 30,
+    job: 'Teacher'
+}
+
+for (const key of person) {
+    console.log(key)
+}
