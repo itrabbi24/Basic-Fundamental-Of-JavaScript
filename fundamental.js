@@ -307,3 +307,25 @@ const person = {
 }
 
 const name = person?.name
+
+
+// 20.async await in javascript
+
+async function getData() {
+    const response = await fetch('https://jsonplaceholder.typicode.com/users');
+    const data = await response.json(); 
+    console.log(data);
+}
+
+getData()
+
+// 21. Json
+
+const person = {
+    name: 'John',
+    age: 30,
+    job: 'Teacher'
+}
+
+const personJson = JSON.stringify(person);
+
