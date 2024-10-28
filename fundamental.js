@@ -344,3 +344,6 @@ try {
     console.log(error);
 }
 
+// 23. throw in javascript
+
+throw new Error('Something went wrong')
