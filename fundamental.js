@@ -327,5 +327,20 @@ const person = {
     job: 'Teacher'
 }
 
+// convert object to json
 const personJson = JSON.stringify(person);
+
+// convert json to object
+const person = JSON.parse(personJson);
+
+
+// 22. try catch in javascript
+
+try {
+    const response = await fetch('https://jsonplaceholder.typicode.com/users');
+    const data = await response.json(); 
+    console.log(data);
+} catch (error) {
+    console.log(error);
+}
 
