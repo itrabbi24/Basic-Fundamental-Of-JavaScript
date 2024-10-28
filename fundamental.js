@@ -297,3 +297,13 @@ boxify(1, 2, 3);
 console.log(boxify(1, 2, 3));
 // [1, 2, 3]
 
+
+// 19. optional chaining in javascript
+
+const person = {
+    name: 'John',
+    age: 30,
+    job: 'Teacher'
+}
+
+const name = person?.name
