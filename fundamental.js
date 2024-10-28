@@ -347,3 +347,10 @@ try {
 // 23. throw in javascript
 
 throw new Error('Something went wrong')
+
+// 24. fetch in javascript
+
+fetch('https://jsonplaceholder.typicode.com/users')
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(error => console.log(error)) 
